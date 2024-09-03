@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class mapExample {
     public static void main (String args[]) {
-        //simpleMap();
+        simpleMap();
         linkedHashMapExample();
     }
 
