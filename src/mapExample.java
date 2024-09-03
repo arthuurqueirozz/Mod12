@@ -16,6 +16,8 @@ public class mapExample {
         Pessoa joao2 = mapa.get("1L");
 
         System.out.println(joao2.nome);
+       mapa.remove("1l");
+        System.out.println(mapa.containsKey("1l"));
     }
 
 }
